@@ -1,0 +1,332 @@
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    background-color: #0b1a2c22;
+}
+
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
+.caja-menu {
+    display: flex;
+    align-items: center;
+    background-color: #0B1A2C;
+    height: 39px;
+}
+
+.logo {
+    margin: 0%;
+    width: 70px;
+    height: 50px;
+}
+
+.header {
+    text-align: center;
+    background-image: url("../Multimedia/FondoPortada.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    padding: 20px;
+    height: 300px;
+}
+
+.header .fotoperfil {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #D8F702;
+
+    background-color: #0b1a2c;
+    border-radius: 50%;
+    box-shadow: 0 0 12px #0b1a2c;
+    position: absolute;
+    left: calc(50% - 90px);
+
+}
+
+.fotoperfil {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.nombre-usuario {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 28px;
+    animation: neon 1s ease-in-out infinite alternate;
+    margin-top: 220px;
+}
+
+/* Efecto neon para nombre*/
+@keyframes neon {
+    from {
+        text-shadow: 0 0 35px #0b1a2c,
+            0 0 40px #69b3af,
+            0 0 55px #141ae2;
+    }
+}
+
+.info-contacto {
+    display: flex;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    padding: 1rem;
+    box-shadow: 0 0 12px #0b1a2c;
+    background-color: whitesmoke;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.datos-personales {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: 0 0 12px #0b1a2c;
+    background-color: whitesmoke;
+    min-width: 300px;
+    margin: 1rem;
+}
+
+.primera-parte {
+    display: flex;
+    flex-direction: row;
+    justify-content: inherit;
+}
+
+.datos-personales li {
+    list-style: none;
+}
+
+.imagen-personales {
+    height: 20px;
+    width: 20px;
+}
+
+.datos-personales a {
+    text-decoration: none;
+    color: #0b1a2c;
+}
+
+.contenedor-amigos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+    box-shadow: 0 0 12px #0b1a2c;
+    background-color: whitesmoke;
+    min-width: 300px;
+    max-width: 300px;
+    margin-left: 1%;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.contenedor-amigos:hover {
+    background-color: rgba(10, 14, 22, 0);
+}
+
+.cada-amigo {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 1%;
+    margin: 1%;
+}
+
+.disponible {
+    width: 15px;
+    height: 15px;
+    display: flex;
+    margin-left: auto;
+}
+
+h2 {
+    text-align: center;
+    color: #0b1a2c;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.imagen-amigos {
+    display: list-item;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    /* padding: 0rem; */
+}
+
+.contenedor-areaTexto {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 1rem;
+    box-shadow: 0 0 12px #0b1a2c;
+    background-color: whitesmoke;
+    width: 700px;
+    margin: 1rem;
+}
+
+.Post {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 600px;
+    height: 100px;
+    text-align: center;
+    border-style: none;
+    background-color: #0b1a2c29;
+    resize: none;
+}
+
+
+.contenedor-redes {
+    margin: 1rem;
+    display: block;
+    padding: 1rem;
+    box-shadow: 0 0 12px #0b1a2c;
+    background-color: whitesmoke;
+}
+
+.rrss {
+    list-style: none;
+    text-align: center;
+    padding: 0%;
+}
+
+.rrss li {
+    display: inline-block;
+    margin: 10px;
+    padding: 0%;
+}
+
+.social {
+    height: 20px;
+    width: 20px;
+}
+
+.segunda-parte {
+    display: flex;
+    flex-direction: row;
+    justify-content: inherit;
+    /* margin: 1%; */
+}
+
+.imagen_amiga {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 450px;
+    height: 500px;
+    filter: blur(2px);
+}
+
+.imagen_amiga:hover {
+    filter: blur(0);
+}
+
+.noticias {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    min-width: 500px;
+    max-width: 500px;
+    height: 600px;
+    margin-left: 9rem;
+    box-shadow: 0 0 12px #0b1a2c;
+    background-color: whitesmoke;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.noticias2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    min-width: 500px;
+    max-width: 500px;
+    height: 600px;
+    margin-left: 9rem;
+    box-shadow: 0 0 12px #0b1a2c;
+    background-color: whitesmoke;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.texto_publicacion {
+    /* text-align: start; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+}
+
+.centrado {
+    background-color: whitesmoke;
+    border-radius: 25%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+.imagen_amiga {
+    transition: transform .2s;
+    /* Animation */
+}
+
+.imagen_amiga:hover {
+    transform: scale(1.05);
+}
+
+.singapur {
+    width: 15px;
+    height: 15px;
+}
+
+b {
+    color: #0b1a2c;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (max-width: 1200px) {
+
+    .contenedor-amigos {
+      display: none;
+    }
+    .datos-personales{
+        display: none;
+    }
+    .segunda-parte{
+        align-items: center;
+        display: flex;
+        padding: 0%;
+        margin: 1rem;
+        flex-direction: column;
+    }
+    .noticias{
+        margin: 1rem;  
+    }
+    .noticias2{
+        margin: 0%;
+    }
+    .primera-parte{
+        display: flex;
+        align-self: center;
+    }
+  }
