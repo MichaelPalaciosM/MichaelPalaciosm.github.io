@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE idiomaPerfil [
+    <!ELEMENT idiomaPerfil (profile,perfil,profil)>
+    <!ELEMENT profile (extraInformation,friends,publish)>
+    <!ELEMENT extraInformation (job,home,from,collegue)>
+    <!ELEMENT job (#PCDATA)>
+    <!ELEMENT home (#PCDATA)>
+    <!ELEMENT from (#PCDATA)>
+    <!ELEMENT collegue (#PCDATA)>
+    <!ELEMENT friends (#PCDATA)>
+    <!ELEMENT publish (#PCDATA)>
+    <!ELEMENT perfil (informacionExtra,amigos,publicaciones)>
+    <!ELEMENT informacionExtra (empleo,hogar,de,instituto)>
+    <!ELEMENT empleo (#PCDATA)>
+    <!ELEMENT hogar (#PCDATA)>
+    <!ELEMENT de (#PCDATA)>
+    <!ELEMENT instituto (#PCDATA)>
+    <!ELEMENT amigos (#PCDATA)>
+    <!ELEMENT publicaciones (#PCDATA)>
+    <!ELEMENT profil (informationsSupplémentaires,amis,publications)>
+    <!ELEMENT informationsSupplémentaires (emploi,domicile,de,institut)>
+    <!ELEMENT emploi (#PCDATA)>
+    <!ELEMENT domicile (#PCDATA)>
+    <!ELEMENT institut (#PCDATA)>
+    <!ELEMENT amis (#PCDATA)>
+    <!ELEMENT publications (#PCDATA)>
+    <!ATTLIST profil lang ID #REQUIRED>
+    <!ATTLIST profile lang ID #REQUIRED>
+    <!ATTLIST perfil lang ID #REQUIRED>
+]>
+<idiomaPerfil>
+    <profile lang="English">
+        <extraInformation>
+            <job>Works at</job>
+            <home>Lives at</home>
+            <from>From</from>
+            <collegue>Studies at</collegue>
+        </extraInformation>
+        <friends>Friends</friends>
+        <publish>What are thinking of?</publish>
+    </profile>
+    <perfil lang="Español">
+        <informacionExtra>
+            <empleo>Trabaja en</empleo>
+            <hogar>Vive en</hogar>
+            <de>De</de>
+            <instituto>Estudia en</instituto>
+        </informacionExtra>
+        <amigos>Amigos</amigos>
+        <publicaciones>Que estas pensando?</publicaciones>
+    </perfil>
+    <profil lang="Français">
+        <informationsSupplémentaires>
+            <emploi>Travailler dans</emploi>
+            <domicile>vit à</domicile>
+            <de>De</de>
+            <institut>Étudier en</institut>
+        </informationsSupplémentaires>
+        <amis>Amis</amis>
+        <publications>À quoi pensez-vous?</publications>
+    </profil>
+
+</idiomaPerfil>

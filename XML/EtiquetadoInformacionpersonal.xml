@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE perfil [
+    <!ELEMENT perfil (usuario*)>
+    <!ELEMENT usuario (informacionUsuario,informacionExtra,amigos,publicaciones,piedePagina)>
+    <!ELEMENT informacionUsuario (fotodePerfil,nombre,apellidos,titulos)>
+    <!ELEMENT titulos (tituloPreferente,tituloSecundario,masTitulos)>
+    <!ELEMENT masTitulos (titulo*)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellidos (#PCDATA)>
+    <!ELEMENT tituloPreferente (#PCDATA)>
+    <!ELEMENT tituloSecundario (#PCDATA)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT fotodePerfil EMPTY>
+    <!ELEMENT informacionExtra (trabaja,vive,lugarNacimiento,estudia)>
+    <!ELEMENT trabaja (#PCDATA)>
+    <!ELEMENT vive (#PCDATA)>
+    <!ELEMENT lugarNacimiento (#PCDATA)>
+    <!ELEMENT estudia (#PCDATA)>
+    <!ELEMENT amigos (nombre*)>
+    <!ATTLIST nombre status (conectado | desconectado) #IMPLIED>
+    <!ELEMENT publicaciones (publicacion*)>
+    <!ELEMENT publicacion (estado,multimedia)>
+    <!ELEMENT estado (#PCDATA)>
+    <!ELEMENT multimedia (#PCDATA)>
+    <!ELEMENT piedePagina (iconosSociales)>
+    <!ELEMENT iconosSociales (correo,facebook,whatsapp)>
+    <!ELEMENT correo (#PCDATA)>
+    <!ELEMENT facebook (#PCDATA)>
+    <!ELEMENT whatsapp (#PCDATA)>
+    ]>
+<perfil>
+    <usuario>
+        <informacionUsuario>
+            <fotodePerfil></fotodePerfil>
+            <nombre>Michael</nombre>
+            <apellidos>Palacios Montoya</apellidos>
+            <titulos>
+                <tituloPreferente>Software Developer</tituloPreferente>
+                <tituloSecundario>IT Technician</tituloSecundario>
+                <masTitulos>
+                    <titulo>Fullstack web developer</titulo>
+                    <titulo>Frontend Engineer</titulo>
+                </masTitulos>
+            </titulos>
+        </informacionUsuario>
+        <informacionExtra>
+            <trabaja> Google Enterprise</trabaja>
+            <vive>Honolulu-Hawai</vive>
+            <lugarNacimiento>Medellín</lugarNacimiento>
+            <estudia>Doctor Balmis</estudia>
+        </informacionExtra>
+        <amigos>
+            <nombre status="conectado">Mambo Rodriguez</nombre>
+            <nombre status="conectado">Nerea Perez Rincon</nombre>
+            <nombre status="desconectado">Pilar Gazquez Galera</nombre>
+            <nombre status="conectado">Gisela de Rojas</nombre>
+            <nombre status="desconectado">Marcela Mora</nombre>
+            <nombre status="desconectado">Maite Paterna Mota</nombre>
+            <nombre status="conectado">Helena Beltran Martinez</nombre>
+            <nombre status="desconectado">Rocio Zapata</nombre>
+            <nombre status="conectado">Antonio Canali</nombre>
+        </amigos>
+        <publicaciones>
+            <publicacion>
+                <estado>Buenos dias Singapur
+                    Looking forward to launch this new project!</estado>
+                <multimedia></multimedia>
+            </publicacion>
+            <publicacion>
+                <estado>Something different to share</estado>
+                <multimedia></multimedia>
+            </publicacion>
+        </publicaciones>
+        <piedePagina>
+            <iconosSociales>
+                <correo></correo>
+                <facebook></facebook>
+                <whatsapp></whatsapp>
+            </iconosSociales>
+        </piedePagina>
+    </usuario>
+    <usuario>
+        <informacionUsuario>
+            <fotodePerfil></fotodePerfil>
+            <nombre>Belen</nombre>
+            <apellidos>De la Moneda</apellidos>
+            <titulos>
+                <tituloPreferente>Software Developer</tituloPreferente>
+                <tituloSecundario>IT Manager</tituloSecundario>
+                <masTitulos>
+                    <titulo>Fullstack web designer</titulo>
+                    <titulo>Backend Engineer</titulo>
+                </masTitulos>
+            </titulos>
+        </informacionUsuario>
+        <informacionExtra>
+            <trabaja> Tesla Enterprise</trabaja>
+            <vive>Miami</vive>
+            <lugarNacimiento>Buenos Aires</lugarNacimiento>
+            <estudia>Doctor Balmis</estudia>
+        </informacionExtra>
+        <amigos>
+            <nombre status="conectado">Luis Rodriguez</nombre>
+            <nombre status="conectado">Bea Perez Rincon</nombre>
+            <nombre status="desconectado">Andres Gazquez Galera</nombre>
+            <nombre status="conectado">Sandra de Rojas</nombre>
+            <nombre status="desconectado">Paco Mora</nombre>
+            <nombre status="desconectado">Luisa Paterna Mota</nombre>
+            <nombre status="conectado">Botero Beltran Martinez</nombre>
+            <nombre status="desconectado">Alejandro Zapata</nombre>
+            <nombre status="conectado">Antonia Canali</nombre>
+        </amigos>
+        <publicaciones>
+            <publicacion>
+                <estado>Buenos dias Alemania
+                    Looking forward to launch it!</estado>
+                <multimedia></multimedia>
+            </publicacion>
+            <publicacion>
+                <estado>Here with you guys</estado>
+                <multimedia></multimedia>
+            </publicacion>
+        </publicaciones>
+        <piedePagina>
+            <iconosSociales>
+                <correo></correo>
+                <facebook></facebook>
+                <whatsapp></whatsapp>
+            </iconosSociales>
+        </piedePagina>
+    </usuario>
+    <usuario>
+        <informacionUsuario>
+            <fotodePerfil></fotodePerfil>
+            <nombre>Mario</nombre>
+            <apellidos>Esparza Montoya</apellidos>
+            <titulos>
+                <tituloPreferente>Hardware Technician</tituloPreferente>
+                <tituloSecundario>IT Developer</tituloSecundario>
+                <masTitulos>
+                    <titulo>Web developer</titulo>
+                </masTitulos>
+            </titulos>
+        </informacionUsuario>
+        <informacionExtra>
+            <trabaja> Amazon Enterprise</trabaja>
+            <vive>Alicante</vive>
+            <lugarNacimiento>Alicante</lugarNacimiento>
+            <estudia>Doctor Balmis</estudia>
+        </informacionExtra>
+        <amigos>
+            <nombre status="conectado">Sara Rodriguez</nombre>
+            <nombre status="conectado">Alba Perez Rincon</nombre>
+            <nombre status="desconectado">Eliana Gazquez Galera</nombre>
+            <nombre status="conectado">Yolanda de Rojas</nombre>
+            <nombre status="desconectado">Mathias Mora</nombre>
+            <nombre status="desconectado">Elizabeth Paterna Mota</nombre>
+            <nombre status="conectado">William Beltran Martinez</nombre>
+            <nombre status="desconectado">Valeria Zapata</nombre>
+            <nombre status="conectado">Jose Canali</nombre>
+        </amigos>
+        <publicaciones>
+            <publicacion>
+                <estado>Cuando hemos avanzado tanto?</estado>
+                <multimedia></multimedia>
+            </publicacion>
+            <publicacion>
+                <estado>Feliz mente casado</estado>
+                <multimedia></multimedia>
+            </publicacion>
+        </publicaciones>
+        <piedePagina>
+            <iconosSociales>
+                <correo></correo>
+                <facebook></facebook>
+                <whatsapp></whatsapp>
+            </iconosSociales>
+        </piedePagina>
+    </usuario>
+</perfil>
